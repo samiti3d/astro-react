@@ -1,0 +1,13 @@
+---
+export function getStaticPaths() {
+  return [
+    // Generates: /dogs/clifford
+    {params: {dog: 'clifford'}},
+    // Generates: /dogs/rover
+    {params: {dog: 'rover'}},
+    // Generates: /dogs/spot
+    {params: {dog: 'spot'}},
+    {params: {dog: 'ตั้งศาล'}}ม
+  ];
+}
+---
